@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var db = require('./models');
 var app = express();
 var Hashids = require("hashids");
-var db = require('./models');
+var hashids = new Hashids("alsdfkjalwerjoaidjfalsdkfjaskdf");
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/static'));
