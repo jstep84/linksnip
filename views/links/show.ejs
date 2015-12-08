@@ -1,0 +1,11 @@
+<h1>Here's your link!</h1>
+
+<div class="well">
+  <h2>Long Link</h2>
+  <a href="<%= link.url %>"><%= link.url %></a>
+</div>
+
+<div class="well">
+  <a href="/<%= hashids.encode(link.id) %>"><h2>Short Link</h2></a>
+  <p><%= link.clicks %></p>
+</div>
